@@ -1,0 +1,64 @@
+.TopLine{
+    font-size: 50px;
+    color: yellowgreen;
+}
+.Players{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.message{
+    text-align: center;
+}
+.First-player{
+   display: flex;
+   height: 200px;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+.Score1{
+    font-size: 50px;
+}
+.Score2{
+    font-size: 50px;
+}
+.roll1{
+    width: 80px;
+    height: 50px;
+    cursor: pointer;
+
+}
+.active{
+    box-shadow: 1px 2px 6px rgb(7, 236, 38);
+}
+.Second-player{
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .roll2{
+    width: 80px;
+    height: 50px;
+    cursor: pointer;
+}
+ .resetbtn{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    
+ }
+ .reset{
+    background-color: pink;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    display: none;
+    
+ }
+ .reset:hover{
+    background-color: rgb(231, 106, 127);
+ }
