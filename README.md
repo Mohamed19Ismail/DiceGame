@@ -1,1 +1,7 @@
-# DiceGame using HTML CSS JAVASCRIPT
+DiceGame Task 
+Techstacks used :
+HTML
+CSS - Flexbox 
+Javascript
+
+
